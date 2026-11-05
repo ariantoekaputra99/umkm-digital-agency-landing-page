@@ -20,4 +20,4 @@ cd umkm-digital-agency-landing-page
 - `styles.css` — desain responsif modern minimalis
 - `script.js` — mobile menu dan animasi reveal
 
-CTA WhatsApp mengarah ke **081181398294**. Silakan ganti placeholder logo klien, copy, atau tautan sosial media sesuai kebutuhan brand.
+CTA WhatsApp mengarah ke **085156324263**. Silakan ganti placeholder logo klien, copy, atau tautan sosial media sesuai kebutuhan brand.
