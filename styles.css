@@ -1114,8 +1114,13 @@ p {
     margin-top: 18px;
   }
 
+  .cta-section {
+    padding-bottom: 56px;
+  }
+
   .footer {
-    padding-top: 40px;
+    padding-top: 36px;
+    padding-bottom: 28px;
   }
 
   .footer-bottom {
