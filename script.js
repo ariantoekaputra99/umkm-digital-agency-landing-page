@@ -20,3 +20,20 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+
+document.querySelectorAll('a[href^="https://wa.me/"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    if (typeof gtag !== 'function') return;
+
+    const location = link.closest('header')
+      ? 'header'
+      : link.closest('footer')
+        ? 'footer'
+        : link.closest('section')?.id || 'hero';
+
+    gtag('event', 'whatsapp_click', {
+      link_text: link.textContent.replace(/\s+/g, ' ').trim(),
+      link_location: location,
+    });
+  });
+});
